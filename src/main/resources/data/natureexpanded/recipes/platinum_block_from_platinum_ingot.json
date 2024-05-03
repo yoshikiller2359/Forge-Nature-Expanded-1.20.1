@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "natureexpanded:platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "natureexpanded:platinum_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "natureexpanded:platinum_block"
+    }
+  ],
+  "result": {
+    "item": "natureexpanded:platinum_ingot",
+    "count": 9
+  }
+}

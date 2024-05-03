@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.yoshikiller.natureexpanded.NatureExpanded;
+import net.yoshikiller.natureexpanded.block.ModBlocks;
 
 public class ModCreativeModeTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -19,6 +20,8 @@ public class ModCreativeModeTab {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.PLATINUM_INGOT.get());
                         pOutput.accept(ModItems.PLATINUM_DUST.get());
+
+                        pOutput.accept(ModBlocks.PLATINUM_BLOCK.get());
                     })
                     .build());
 
