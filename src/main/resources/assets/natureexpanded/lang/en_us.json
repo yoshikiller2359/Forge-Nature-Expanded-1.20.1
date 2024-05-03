@@ -4,5 +4,8 @@
 
   "block.natureexpanded.platinum_block": "Block of Platinum",
 
+  "block.natureexpanded.platinum_ore": "Platinum Ore",
+  "block.natureexpanded.deepslate_platinum_ore": "Deepslate Platinum Ore",
+
   "creativetab.natureexpanded_tab": "Nature Expanded"
 }

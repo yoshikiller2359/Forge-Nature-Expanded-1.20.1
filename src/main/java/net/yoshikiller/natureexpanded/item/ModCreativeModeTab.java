@@ -22,6 +22,9 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.PLATINUM_DUST.get());
 
                         pOutput.accept(ModBlocks.PLATINUM_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.PLATINUM_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE.get());
                     })
                     .build());
 
